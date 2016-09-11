@@ -1,5 +1,5 @@
 /**
- * Created by David on 04 Sep 2016.
+ * Created by Alex on 04 Sep 2016.
  */
 var jokes = [
     "A day without sunshine is like, night.",
