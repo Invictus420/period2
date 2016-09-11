@@ -1,5 +1,5 @@
 /**
- * Created by David on 06 Sep 2016.
+ * Created by Alex on 06 Sep 2016.
  */
 var express = require('express');
 var jokes = require(__base + 'model/jokes.js');
