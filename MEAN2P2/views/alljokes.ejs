@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+<h1><%= title %></h1>
+<p>Welcome to <%= title %>, here you get all the jokes:</p>
+<ul>
+    <% for(var i=0; i<allJokes.length; i++) { %>
+    <li>
+        <%= allJokes[i]%>
+    </li>
+    <% } %>
+</ul>
+<a href="/">Go Home</a>
+</body>
+</html>

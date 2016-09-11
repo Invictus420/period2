@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+<h1><%= title %></h1>
+<p>Welcome to <%= title %>, here you can add jokes:</p>
+<form action="/storejoke">
+    Your New Joke: <input type="text" name="newjoke">
+    <input type="submit" value="Add">
+</form>
+<a href="/">Go Home</a>
+</body>
+</html>
